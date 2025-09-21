@@ -53,3 +53,29 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains IDEs
+.idea/
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+*.workspace
+
+# Dev-C++
+*.dev
+
+# Build folders (common across IDEs)
+bin/
+obj/
+build/
+debug/
+release/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
