@@ -1,6 +1,6 @@
 # 🏫 Faculty Management System
 
-A simple console-based Faculty Management System written in **C**. It lets you manage faculty records using a **singly linked list** you can add, remove, search, update, and display faculty profiles all from a menu-driven interface.
+This project is a console-based Faculty Management System built in C using a singly linked list. It lets you manage faculty records where you can add, remove, search, update, and display faculty profiles from a menu.
 
 ---
 
