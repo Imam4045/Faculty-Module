@@ -1,6 +1,6 @@
 # 🏫 Faculty Management System
 
-A simple console-based Faculty Management System written in **C**, built as part of a university project for CSE207. It lets you manage faculty records using a **singly linked list** you can add, remove, search, update, and display faculty profiles all from a menu-driven interface.
+A simple console-based Faculty Management System written in **C**. It lets you manage faculty records using a **singly linked list** you can add, remove, search, update, and display faculty profiles all from a menu-driven interface.
 
 ---
 
@@ -72,7 +72,7 @@ Project/
 
 ## ⚙️ How To Run The Project
 
-This project uses **MSYS2's UCRT64 GCC compiler**. You need to run it through the UCRT64 terminal, not PowerShell or CMD otherwise the compiler won't work correctly.
+This project needs **MSYS2's UCRT64 GCC compiler** to run. I recommend using the UCRT64 terminal instead of PowerShell or CMD as it works correctly with this compiler.
 
 ### Step 1: Open the UCRT64 Terminal
 
@@ -92,7 +92,7 @@ In the UCRT64 terminal, use the `cd` command to go to wherever you saved the pro
 cd "............../Project"
 ```
 
-Replace `..............` with your actual folder path. A quick way to find it is to **open your project folder in File Explorer**, click the address bar at the top, and copy the path shown there.
+Replace `..............` with your actual folder path. An easy way to find it is to **open your project folder in File Explorer**, click the address bar at the top, and copy the path from there.
 
 ### Step 3: Compile The Project
 
@@ -150,6 +150,17 @@ Just type a number and press **Enter** to pick an option. Follow the prompts to 
 
 ---
 
+## 🎓 Course Info
+
+| | |
+|---|---|
+| **Course** | CSE207 — Data Structures |
+| **Semester** | 4th Semester |
+| **Project Type** | Console Application in C |
+| **Data Structure Used** | Singly Linked List |
+
+---
+
 ## 🎯 Project Assumptions
 
 - All inputs (Name, Address, Phone Number) are entered as text strings.
@@ -160,9 +171,26 @@ Just type a number and press **Enter** to pick an option. Follow the prompts to 
 
 ---
 
+## ⚠️ Limitations
+
+- **No file saving** — all data is lost when the program closes.
+- **No duplicate checking** — two faculty members can have the same initial.
+- **Basic display only** — no sorting or filtering of the faculty list.
+- Not designed for **very large datasets** (e.g., thousands of faculty records).
+
+---
+
+## 📄 References
+
+- The C Programming Language by Brian W. Kernighan and Dennis M. Ritchie
+- C Standard Library Documentation
+- East West University CSE207 — Data Structures Course Materials
+
+---
+
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository, make changes, and submit a pull request.
+If you have any suggestions or want to improve the project, feel free to fork it, make your changes and submit a pull request.
 
 ---
 
@@ -172,6 +200,9 @@ This project is licensed under the [**MIT License**](https://opensource.org/lice
 
 ---
 
+## 📬 Contact
+
+If you have any questions, feel free to reach me at [imam220826@gmail.com](mailto:imam220826@gmail.com)
 ## 📬 Contact
 
 If you have any questions or concerns, please don't hesitate to contact me via email at [imam220826@gmail.com](mailto:imam220826@gmail.com)
