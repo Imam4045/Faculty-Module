@@ -79,3 +79,17 @@ release/
 # OS-specific junk
 .DS_Store
 Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Log files
+*.log
+
+# MinGW / MSYS2 specific
+*.stackdump
+
+# Windows path info file (sometimes created by File Explorer)
+desktop.ini
