@@ -150,17 +150,6 @@ Just type a number and press **Enter** to pick an option. Follow the prompts to 
 
 ---
 
-## 🎓 Course Info
-
-| | |
-|---|---|
-| **Course** | CSE207 — Data Structures |
-| **Semester** | 4th Semester |
-| **Project Type** | Console Application in C |
-| **Data Structure Used** | Singly Linked List |
-
----
-
 ## 🎯 Project Assumptions
 
 - All inputs (Name, Address, Phone Number) are entered as text strings.
