@@ -160,23 +160,6 @@ Just type a number and press **Enter** to pick an option. Follow the prompts to 
 
 ---
 
-## ⚠️ Limitations
-
-- **No file saving** — all data is lost when the program closes.
-- **No duplicate checking** — two faculty members can have the same initial.
-- **Basic display only** — no sorting or filtering of the faculty list.
-- Not designed for **very large datasets** (e.g., thousands of faculty records).
-
----
-
-## 📄 References
-
-- The C Programming Language by Brian W. Kernighan and Dennis M. Ritchie
-- C Standard Library Documentation
-- East West University CSE207 — Data Structures Course Materials
-
----
-
 ## 🤝 Contributing
 
 If you have any suggestions or want to improve the project, feel free to fork it, make your changes and submit a pull request.
