@@ -138,7 +138,7 @@ Just type a number and press **Enter** to pick an option. Follow the prompts to 
 - You must **create at least one faculty (option 1)** before using insert, delete, search, or modify.
 - When entering designation, type a number from **1 to 5**.
 - When entering department, use the **department codes** listed in the table above (e.g., `10` for CSE).
-- Choosing **option 0** to exit will properly free all memory — always exit this way instead of force-closing.
+- Choosing **option 0** to exit will properly free all memory always exit this way instead of force-closing.
 
 ---
 
@@ -155,7 +155,7 @@ Just type a number and press **Enter** to pick an option. Follow the prompts to 
 - All inputs (Name, Address, Phone Number) are entered as text strings.
 - Designation must be a **positive integer between 1 and 5**.
 - Department must be one of the **valid department codes** (10–16, 20–24, 30–31).
-- The linked list grows **dynamically** — there is no fixed limit on the number of faculty records.
+- The linked list grows **dynamically** there is no fixed limit on the number of faculty records.
 - Memory is properly freed only when you **exit using option 0**.
 
 ---
