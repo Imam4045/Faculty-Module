@@ -174,7 +174,4 @@ This project is licensed under the [**MIT License**](https://opensource.org/lice
 
 ## 📬 Contact
 
-If you have any questions, feel free to reach me at [imam220826@gmail.com](mailto:imam220826@gmail.com)
-## 📬 Contact
-
 If you have any questions or concerns, please don't hesitate to contact me via email at [imam220826@gmail.com](mailto:imam220826@gmail.com)
