@@ -1,6 +1,6 @@
 # 🏫 Faculty Management System
 
-A simple console-based Faculty Management System written in **C**, built as part of a university project for CSE207. It lets you manage faculty records using a **singly linked list** — you can add, remove, search, update, and display faculty profiles all from a menu-driven interface.
+A simple console-based Faculty Management System written in **C**, built as part of a university project for CSE207. It lets you manage faculty records using a **singly linked list** you can add, remove, search, update, and display faculty profiles all from a menu-driven interface.
 
 ---
 
@@ -72,9 +72,9 @@ Project/
 
 ## ⚙️ How To Run The Project
 
-This project uses **MSYS2's UCRT64 GCC compiler**. You need to run it through the UCRT64 terminal, not PowerShell or CMD — otherwise the compiler won't work correctly.
+This project uses **MSYS2's UCRT64 GCC compiler**. You need to run it through the UCRT64 terminal, not PowerShell or CMD otherwise the compiler won't work correctly.
 
-### Step 1 — Open the UCRT64 Terminal
+### Step 1: Open the UCRT64 Terminal
 
 Go to this location on your computer and double-click `ucrt64.exe`:
 
@@ -84,7 +84,7 @@ C:\msys64\ucrt64.exe
 
 A terminal window will open that looks like a bash shell.
 
-### Step 2 — Navigate To Your Project Folder
+### Step 2: Navigate To Your Project Folder
 
 In the UCRT64 terminal, use the `cd` command to go to wherever you saved the project:
 
@@ -94,9 +94,7 @@ cd "............../Project"
 
 Replace `..............` with your actual folder path. A quick way to find it is to **open your project folder in File Explorer**, click the address bar at the top, and copy the path shown there.
 
-> **Tip:** Use forward slashes `/` instead of backslashes `\` in the UCRT64 terminal. Also wrap the path in double quotes `" "` if any folder name has spaces.
-
-### Step 3 — Compile The Project
+### Step 3: Compile The Project
 
 ```bash
 gcc Main.c Faculty_Module.c -o faculty_module.exe -Wall
@@ -104,7 +102,7 @@ gcc Main.c Faculty_Module.c -o faculty_module.exe -Wall
 
 This compiles both source files and creates `faculty_module.exe` in your project folder. The `-Wall` flag shows any warnings during compilation.
 
-### Step 4 — Run The Program
+### Step 4: Run The Program
 
 ```bash
 ./faculty_module.exe
@@ -152,17 +150,6 @@ Just type a number and press **Enter** to pick an option. Follow the prompts to 
 
 ---
 
-## 🎓 Course Info
-
-| | |
-|---|---|
-| **Course** | CSE207 — Data Structures |
-| **Semester** | 4th Semester |
-| **Project Type** | Console Application in C |
-| **Data Structure Used** | Singly Linked List |
-
----
-
 ## 🎯 Project Assumptions
 
 - All inputs (Name, Address, Phone Number) are entered as text strings.
@@ -170,23 +157,6 @@ Just type a number and press **Enter** to pick an option. Follow the prompts to 
 - Department must be one of the **valid department codes** (10–16, 20–24, 30–31).
 - The linked list grows **dynamically** — there is no fixed limit on the number of faculty records.
 - Memory is properly freed only when you **exit using option 0**.
-
----
-
-## ⚠️ Limitations
-
-- **No file saving** — all data is lost when the program closes.
-- **No duplicate checking** — two faculty members can have the same initial.
-- **Basic display only** — no sorting or filtering of the faculty list.
-- Not designed for **very large datasets** (e.g., thousands of faculty records).
-
----
-
-## 📄 References
-
-- The C Programming Language by Brian W. Kernighan and Dennis M. Ritchie
-- C Standard Library Documentation
-- East West University CSE207 — Data Structures Course Materials
 
 ---
 
